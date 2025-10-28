@@ -63,4 +63,4 @@ export const AdminCampaigns = lazy(() => import('./AdminCampaigns'));
 export const AdminImport = lazy(() => import('./AdminImport'));
 export const AdminExport = lazy(() => import('./AdminExport'));
 export const AdminBackup = lazy(() => import('./AdminBackup'));
-export const AdminAPI = lazy(() => import('./AdminAPI'));
+// AdminAPI removed due to secrets
